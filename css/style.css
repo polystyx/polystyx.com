@@ -1,0 +1,134 @@
+.font-museo {
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal
+}
+
+.font-mynerve {
+    font-family: "Mynerve", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.font-worksans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    background-color: #0d0a24;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+html, .container {
+    height: 100%;
+    width: 100%;
+}
+
+.banner {
+    position: sticky;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    z-index: 69420;
+}
+
+.warning-text {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #e49898;
+    color: #881212;
+}
+
+.warning-text-yell {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #881212;
+}
+
+.warning-text-yell:hover {
+    color: #0d0a24;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ps-logo {
+    width: 384px;
+}
+
+hr {
+    border: none;
+    outline: none;
+    margin: 20px 0 20px 0;
+}
+
+.center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    font-size: 1.8rem;
+    padding: 40px;
+    color: #fafafa;
+    background-color: rgba(26, 21, 59, 0.75);
+}
+
+.center-center p {
+    margin: 0;
+    padding: 0;
+}
+
+.center-bot {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-nostyle {
+    list-style-type: none;
+    margin: 0;
+}
+
+.social-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    padding: 5px;
+    margin: 5px;
+}
+
+.social-image {
+    width: 64px;
+}
